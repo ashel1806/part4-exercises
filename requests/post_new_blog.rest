@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFzaGVsRGV2IiwiaWQiOiI2MTBmYTFkZGJjYTgxYjBhMjhhYjg5MzUiLCJpYXQiOjE2Mjg0NjU3NTh9.qrVG4805Am_2PuRem8BhIk-T1JdjWFwvg0gj049Re68
+
+
+{
+  "title": "TokenBlogFromMiddleware",
+  "author": "authTokenedMidd",
+  "url": "https://token-middleware.com",
+  "likes": 13
+}
