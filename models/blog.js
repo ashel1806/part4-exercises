@@ -20,7 +20,8 @@ const blogSchema = new Schema({
   user: {
     type: Schema.Types.ObjectId,
     ref: 'User'
-  }
+  },
+  comments: [ String ]
 })
 
 blogSchema.set('toJSON', {
