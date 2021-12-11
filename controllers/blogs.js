@@ -38,7 +38,7 @@ blogsRouter.post('/', middleware.tokenExtractor , async (request, response) => {
     url: body.url,
     likes: body.likes || 0,
     comments: body.comments,
-    user: user._id
+    user
   })
 
   const savedBlog = await blog.save()
